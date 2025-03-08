@@ -5,7 +5,7 @@ const pipe = (f1, f2, f3) => (input) => f3(f2(f1(input)));
 const toUpperCase = (str) => str.toUpperCase();
 
 // Ortiqcha bo'shliqlarni olib tashlaydigan funksiya
-const trim = (str) => str.trim();
+const trim = (str) => str.trim(); 
 
 // Matn uzunligini qaytaradigan funksiya
 const getLength = (str) => str.length;
